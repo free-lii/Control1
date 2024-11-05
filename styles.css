@@ -10,44 +10,45 @@ body {
 
 nav {
     width: 100%; 
-    padding: 25px;
-    background: #0e0f0f;
+    padding: 25px; 
+    background: #0e0f0f; 
     color: #fff; 
     text-align: center; 
     top: 0; 
     left: 0; 
-    z-index: 1000;
+    z-index: 1000; 
 }
 
 nav a {
     color: #fff; 
     margin: 0 20px; 
-    text-decoration: none;
+    text-decoration: none; 
     transition: color 0.3s ease; 
 }
 
 nav a:hover {
     color: #1e90ff; 
+}
 
 nav a.active {
-    font-weight: bold;
+    font-weight: bold; 
 }
 
 img {
-    max-width: 100%;
+    max-width: 100%; 
 }
 
 table {
     border-collapse: collapse; 
     width: 50%;
-    margin: 20px auto; 
+    margin: 20px auto;
     border: 2px solid white; 
-    background: url('black-blue-gradient-photy.org.jpg') no-repeat center center;
-    background-size: cover;
+    background: url('black-blue-gradient-photy.org.jpg') no-repeat center center; 
+    background-size: cover; 
 }
 
 table, th, td {
-    border: 1px solid white; 
+    border: 1px solid white;
 }
 
 th, td {
@@ -55,9 +56,8 @@ th, td {
     background-color: rgba(0, 0, 0, 0.5); 
 }
 
-
 td {
-    text-align: center;
+    text-align: center; 
     vertical-align: middle; 
 }
 
@@ -65,17 +65,16 @@ h1, h2 {
     text-align: left; 
 }
 
-
 .content {
     background-color: rgba(0, 0, 0, 0.7); 
-    padding: 20px; 
+    padding: 20px;
     border-radius: 10px; 
     margin: 20px; 
 }
 
 
 .content > * {
-    margin-top: 5px;
+    margin-top: 5px; 
 }
 
 .background-image {
@@ -88,6 +87,7 @@ h1, h2 {
     opacity: 0.5; 
     z-index: -1; 
 }
+
 
 .center-text {
     text-align: center; 
