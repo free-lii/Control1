@@ -4,79 +4,78 @@ body {
     background: url('view-illuminated-neon-gaming-keyboard-setup-controller.jpg') no-repeat center center fixed;
     background-size: cover;
     position: relative;
-    color: white; /* Цвет текста по умолчанию белый */
-    padding-top: 5px; /* Отступ сверху для контента, чтобы учесть высоту меню + 5px */
+    color: white; 
+    padding-top: 5px; 
 }
 
 nav {
-    width: 100%; /* Занимает всю ширину */
-    padding: 25px; /* Отступ внутри меню */
-    background: #0e0f0f; /* Цвет фона */
-    color: #fff; /* Цвет текста */
-    text-align: center; /* Центрирование текста */
-    top: 0; /* Привязка к верхней части страницы */
-    left: 0; /* Привязка к левому краю страницы */
-    z-index: 1000; /* Обеспечение наложения на другие элементы */
+    width: 100%; 
+    padding: 25px;
+    background: #0e0f0f;
+    color: #fff; 
+    text-align: center; 
+    top: 0; 
+    left: 0; 
+    z-index: 1000;
 }
 
 nav a {
-    color: #fff; /* Цвет ссылок */
-    margin: 0 20px; /* Отступы между ссылками */
-    text-decoration: none; /* Подчеркивание ссылок */
-    transition: color 0.3s ease; /* Плавный переход цвета при наведении */
+    color: #fff; 
+    margin: 0 20px; 
+    text-decoration: none;
+    transition: color 0.3s ease; 
 }
 
 nav a:hover {
-    color: #1e90ff; /* Цвет при наведении */
-}
+    color: #1e90ff; 
 
 nav a.active {
-    font-weight: bold; /* Полужирный текст для активной ссылки */
+    font-weight: bold;
 }
 
 img {
-    max-width: 100%; /* Максимальная ширина изображений */
+    max-width: 100%;
 }
 
 table {
     border-collapse: collapse; 
-    width: 50%; /* Ширина таблицы */
-    margin: 20px auto; /* Центрирование таблицы */
-    border: 2px solid white; /* Обрамление таблицы */
-    background: url('black-blue-gradient-photy.org.jpg') no-repeat center center; /* Фоновое изображение для таблицы */
-    background-size: cover; /* Фон на весь размер таблицы */
+    width: 50%;
+    margin: 20px auto; 
+    border: 2px solid white; 
+    background: url('black-blue-gradient-photy.org.jpg') no-repeat center center;
+    background-size: cover;
 }
 
 table, th, td {
-    border: 1px solid white; /* Белое обрамление ячеек */
+    border: 1px solid white; 
 }
 
 th, td {
     padding: 10px; 
-    background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный фон для текста */
+    background-color: rgba(0, 0, 0, 0.5); 
 }
 
-/* Центрирование текста и изображений в ячейках таблицы */
+
 td {
-    text-align: center; /* Горизонтальное центрирование */
-    vertical-align: middle; /* Вертикальное центрирование */
+    text-align: center;
+    vertical-align: middle; 
 }
 
 h1, h2 {
     text-align: left; 
 }
 
-/* Стиль для текста вне навигационного меню */
+
 .content {
-    background-color: rgba(0, 0, 0, 0.7); /* Полупрозрачный черный фон */
-    padding: 20px; /* Отступы вокруг текста */
-    border-radius: 10px; /* Скругленные углы */
-    margin: 20px; /* Отступы от остальных элементов */
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 20px; 
+    border-radius: 10px; 
+    margin: 20px; 
 }
 
-/* Убедитесь, что все элементы имеют отступ от меню */
+
 .content > * {
-    margin-top: 5px; /* Отступ сверху для всех дочерних элементов блока контента */
+    margin-top: 5px;
 }
 
 .background-image {
@@ -90,15 +89,14 @@ h1, h2 {
     z-index: -1; 
 }
 
-/* Новый стиль для центрирования текста */
 .center-text {
-    text-align: center; /* Центрируем текст по горизонтали */
-    margin-top: 50px; /* Добавляем отступ сверху */
+    text-align: center; 
+    margin-top: 50px; 
 }
- /* Добавляем стиль для ячейки с фоновым изображением */
+
  .background-cell {
-    background-image: url('идгу.jpg'); /* Путь к фоновому изображению */
-    background-size: cover; /* Растягиваем изображение, чтобы оно заполнило всю ячейку */
-    background-position: center; /* Центрируем изображение */
-    color: white; /* Делаем текст белым для лучшей читаемости */
+    background-image: url('идгу.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    color: white; 
 }
